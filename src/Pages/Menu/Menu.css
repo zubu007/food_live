@@ -1,0 +1,36 @@
+.menu-table{
+    background-color: #222222 ;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.menu-table-container {
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-catagory {
+
+    width: 350px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-items {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.menu-item {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}

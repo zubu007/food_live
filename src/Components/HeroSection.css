@@ -1,0 +1,178 @@
+.hero-section {
+    
+    padding-top: 200px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-home {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Home.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position-x: -300px;
+}
+
+.hero-about {
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../resources/About.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position-x: -300px;
+}
+
+.hero-menu {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Menu.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position-x: -300px;
+}
+
+.hero-staff {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Chef.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position-x: -300px;
+}
+
+.hero-contact {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Contact.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position-x: -300px;
+}
+
+.hero-booking {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Booking.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position-y: -300px;
+}
+
+.hero-review {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Review.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    
+}
+
+
+.hero-container {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 300px;
+}
+
+.hero-container >p {
+    text-align: center;
+}
+
+.button {
+    background-color: #c03b12;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 150px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+@media only screen and (min-width: 800px) {
+    .hero-section {
+    
+        padding-top: 350px;
+        padding-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hero-home {
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0px;
+    }
+    
+    .hero-about {
+        background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../resources/About.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0px;
+    }
+    
+    .hero-menu {
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Menu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0px;
+    }
+    
+    .hero-staff {
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Chef.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0px;
+    }
+    
+    .hero-contact {
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Contact.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0px;
+    }
+    
+    .hero-booking {
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Booking.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -400px;
+    }
+    
+    .hero-review {
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/Review.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0px;
+        
+    }
+    
+    
+    .hero-container {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50%;
+        height: 400px;
+    }
+
+    .hero-container > h1 {
+        font-size: 90px;
+    }
+
+    .hero-container > p {
+        font-size: 25px;
+    }
+    
+    .button {
+        background-color: #c03b12;
+        border: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 150px;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 15px;
+        transition-duration: 0.4s;
+    }
+}

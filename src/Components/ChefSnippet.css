@@ -1,0 +1,45 @@
+.chef-snippet {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chef-snippet > img {
+    width: 300px;
+    margin: 20px;
+}
+
+.chefs-container {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 800px) {
+    .chef-snippet {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px;
+    }
+    
+    .chef-snippet > img {
+        width: 300px;
+        margin: 20px;
+    }
+    
+    .chefs-container {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
